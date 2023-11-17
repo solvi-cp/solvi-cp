@@ -1,0 +1,40 @@
+{
+  "name": "solvi",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.22.10",
+    "@emotion/css": "^11.11.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@svgdotjs/svg.js": "file:./svg.js",
+    "@use-gesture/react": "^10.2.27",
+    "deep-object-diff": "^1.1.9",
+    "escape-html": "^1.0.3",
+    "interactjs": "^1.10.18",
+    "meteor-node-stubs": "^1.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "simpl-schema": "^3.4.1",
+    "slate": "^0.94.1",
+    "slate-history": "^0.93.0",
+    "slate-react": "^0.98.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}

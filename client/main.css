@@ -1,0 +1,66 @@
+html, body, #react-target {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  touch-action: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.pan .editable {
+  touch-action: initial;
+  -moz-user-select: initial;
+  -webkit-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+  -webkit-touch-callout: initial;
+}
+
+foreignObject div {
+  width: fit-content;
+  display: inline-block;
+  position: static;
+  padding-top: 4px;
+  white-space: nowrap;
+}
+
+foreignObject span {
+  border-radius: 5px;
+  padding: 2px;
+}
+
+foreignObject span.editable {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.inherited foreignObject span.editable {
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+}
+
+foreignObject select {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+select:disabled {
+  color: initial;
+}

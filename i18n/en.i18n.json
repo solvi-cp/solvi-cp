@@ -1,0 +1,79 @@
+{
+  "types": {
+    "type": "group",
+    "object": "object",
+    "object_type": "object group",
+    "container": "container",
+    "container_type": "container group",
+    "instance": "instance",
+    "selector": "selector",
+    "representative": "representative"
+  },
+  "connectorTypes": {
+    "putInto": "put into",
+    "instanceOf": "instance of"
+  },
+  "selector": {
+    "selector": "selector",
+    "representative": "representative",
+    "any": "exists one",
+    "none": "none",
+    "all": "all",
+    "exists": "exists",
+    "contained": "contained",
+    "invalid": "invalid"
+  },
+  "attributes": {
+    "attribute": "attribute",
+    "name": "name",
+    "ordered": "ordered",
+    "repeated": "repeated",
+    "typeRepeated": "repeated in group",
+    "circular": "circular",
+    "capacity": "capacity",
+    "amount": "amount",
+    "howMany": "how many"
+  },
+  "relationship": {
+    "relationship": "relationship",
+    "placeholder": "select position",
+    "next": "next to",
+    "previous": "previous to",
+    "before": "before",
+    "after": "after",
+    "first": "first",
+    "last": "last",
+    "adjacent": "adjacent to",
+    "contains": "contains",
+    "contains_all": "contains all",
+    "count": "count"
+  },
+  "operators": {
+    "and": "and",
+    "or": "or",
+    "not": "not",
+    "implication": "implication",
+    "sum": "sum",
+    "avg": "average",
+    "spread": "spread",
+    "max": "max",
+    "min": "min",
+    "count": "count",
+    "allDiff": "all diff",
+    "maximise": "maximise",
+    "minimise": "minimise",
+    "position": "position",
+    "solve": "solve",
+    "switch": "switch palette",
+    "knapsack": "knapsack",
+    "wedding": "wedding",
+    "teaching": "teaching"
+  },
+  "ui": {
+    "loading": "loading solvi...",
+    "rendering": "updating",
+    "cyclic-connection": "cyclic connection",
+    "already-connected": "already attached",
+    "csv-imported": "csv imported"
+  }
+}

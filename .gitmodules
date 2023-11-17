@@ -1,0 +1,9 @@
+[submodule "svg.js"]
+	path = svg.js
+	url = https://github.com/svgdotjs/svg.js.git
+[submodule "conjure"]
+	path = conjure
+	url = https://github.com/conjure-cp/conjure.git
+[submodule "athanor"]
+	path = athanor
+	url = https://github.com/athanor/athanor.git
